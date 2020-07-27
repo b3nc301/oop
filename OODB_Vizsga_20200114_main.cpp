@@ -3,7 +3,7 @@
 #define SZINT_2 1
 #define SZINT_3 1
 #define SZINT_4 1
-#define SZINT_5 0
+#define SZINT_5 1
 
 // Ha fejleszt, erdemes kikapcsolni az ellenorzest
 #define ELLENORZES 1
@@ -199,7 +199,6 @@ int main()
 	std::cout << *executor << '\n';
 	std::cout << flotta;
 	std::cout << "\n";
-	
 	delete vehement2;
 #endif // SZINT_5
 	
